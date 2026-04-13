@@ -6,11 +6,11 @@ var
 
 inicio
 
-  escreva("Digite o 1º número: ")
+  escreva("Digite o 1Âº nÃºmero: ")
   leia(n1)
-  escreva("Digite o 2º número: ")
+  escreva("Digite o 2Âº nÃºmero: ")
   leia(n2)
-  escreva("Digite o 3º número: ")
+  escreva("Digite o 3Âº nÃºmero: ")
   leia(n3)
   soma <- n1 + n2 + n3
   escreva("Soma = ", soma)
