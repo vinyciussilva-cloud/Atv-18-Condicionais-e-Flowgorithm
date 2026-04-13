@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value=""/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-04-13 02:04:21 "/>
+        <attribute name="created" value="RGV2XzFvX0FubztETlMxMTgxMjYwODI1OzIwMjYtMDQtMTM7IjAxOjUyOjU0ICI7Mjg1Ng=="/>
+        <attribute name="edited" value="RGV2XzFvX0FubztETlMxMTgxMjYwODI1OzIwMjYtMDQtMTM7IjAyOjA0OjIxICI7MjsyOTU3"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="comiss&#227;oProduto" type="Integer" array="False" size=""/>
+            <declare name="valorProduto" type="Real" array="False" size=""/>
+            <declare name="percentual" type="Real" array="False" size=""/>
+            <declare name="comissao" type="Real" array="False" size=""/>
+            <output expression="&quot;Valor do produto: R$ &quot;" newline="False"/>
+            <input variable="valorProduto"/>
+            <if expression="valorProduto &lt;= 5000">
+                <then>
+                    <assign variable="percentual" expression="0.05"/>
+                </then>
+                <else>
+                    <assign variable="percentual" expression="0.10"/>
+                </else>
+            </if>
+            <assign variable="comiss&#227;oProduto" expression="valorProduto * percentual"/>
+            <output expression="&quot;Comiss&#227;o = R$ &quot; &amp; comiss&#227;oProduto" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

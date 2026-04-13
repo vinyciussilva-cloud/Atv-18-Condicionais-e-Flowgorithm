@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value=""/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-04-13 02:00:23 "/>
+        <attribute name="created" value="RGV2XzFvX0FubztETlMxMTgxMjYwODI1OzIwMjYtMDQtMTM7IjAxOjUwOjI2ICI7Mjg1Mw=="/>
+        <attribute name="edited" value="RGV2XzFvX0FubztETlMxMTgxMjYwODI1OzIwMjYtMDQtMTM7IjAyOjAwOjIzICI7MjsyOTU1"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="somaNumeros" type="Integer" array="False" size=""/>
+            <declare name="n1" type="Real" array="False" size=""/>
+            <declare name="n2" type="Real" array="False" size=""/>
+            <declare name="n3" type="Real" array="False" size=""/>
+            <declare name="soma" type="Real" array="False" size=""/>
+            <output expression="&quot;Digite o 1&#186; n&#250;mero: &quot;" newline="False"/>
+            <input variable="n1"/>
+            <output expression="&quot;Digite o 2&#186; n&#250;mero: &quot;" newline="False"/>
+            <input variable="n2"/>
+            <output expression="&quot;Digite o 3&#186; n&#250;mero: &quot;" newline="False"/>
+            <input variable="n3"/>
+            <assign variable="somaNumeros" expression="n1 + n2 + n3"/>
+            <output expression="&quot;Soma = &quot; &amp; somaNumeros" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

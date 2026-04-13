@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value=""/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-04-13 02:05:04 "/>
+        <attribute name="created" value="RGV2XzFvX0FubztETlMxMTgxMjYwODI1OzIwMjYtMDQtMTM7IjAyOjA0OjI3ICI7Mjg1NA=="/>
+        <attribute name="edited" value="RGV2XzFvX0FubztETlMxMTgxMjYwODI1OzIwMjYtMDQtMTM7IjAyOjA1OjA0ICI7MTsyOTU4"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="idade" type="Integer" array="False" size=""/>
+            <output expression="&quot;Digite sua idade: &quot;" newline="False"/>
+            <input variable="idade"/>
+            <if expression="idade &gt;= 18">
+                <then>
+                    <output expression="&quot;Maior de idade. Pode dirigir.&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;Menor de idade. N&#227;o pode dirigir.&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

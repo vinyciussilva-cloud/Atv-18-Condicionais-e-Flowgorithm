@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value=""/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2026-04-13 02:01:27 "/>
+        <attribute name="created" value="RGV2XzFvX0FubztETlMxMTgxMjYwODI1OzIwMjYtMDQtMTM7IjAxOjUxOjMxICI7Mjg1MA=="/>
+        <attribute name="edited" value="RGV2XzFvX0FubztETlMxMTgxMjYwODI1OzIwMjYtMDQtMTM7IjAyOjAxOjI3ICI7MjsyOTYw"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="volumeParalelepipedo" type="Integer" array="False" size=""/>
+            <declare name="base" type="Real" array="False" size=""/>
+            <declare name="altura" type="Real" array="False" size=""/>
+            <declare name="largura" type="Real" array="False" size=""/>
+            <declare name="volume" type="Real" array="False" size=""/>
+            <output expression="&quot;Base: &quot;" newline="False"/>
+            <input variable="base"/>
+            <output expression="&quot;Altura: &quot;" newline="False"/>
+            <input variable="altura"/>
+            <output expression="&quot;Largura: &quot;" newline="False"/>
+            <input variable="largura"/>
+            <assign variable="volumeParalelepipedo" expression="base * altura * largura"/>
+            <output expression="&quot;Volume = &quot; &amp; volumeParalelepipedo" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
