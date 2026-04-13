@@ -1,4 +1,4 @@
-algoritmo "SomaTresNumeros"
+algoritmo "Soma de Tres Numeros"
 
 var
 
